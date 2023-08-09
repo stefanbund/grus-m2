@@ -32,3 +32,7 @@ column called 'identifier' which is equivalent to the minimum 'time' column for 
 
 For all the unique values in the sequence_df Data frame column 'identifier', 
 take only one row from the data frame with that identifier
+
+
+for the pandas data frame unique_df, where column 'bucket' is equal to 'surge'. For those rows create a new column 
+called 'surge length' and make it equal to 'length' then set the value in 'length' to zero
