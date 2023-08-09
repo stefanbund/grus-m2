@@ -36,3 +36,27 @@ take only one row from the data frame with that identifier
 
 for the pandas data frame unique_df, where column 'bucket' is equal to 'surge'. For those rows create a new column 
 called 'surge length' and make it equal to 'length' then set the value in 'length' to zero
+
+
+i have a pandas dataframe with columns ['time', 's_MP', 's_change', 'surge', 'p_MP', 'p_change', 'precursor',
+       'p_buyCap', 'p_askCap', 'p_totalBidVol', 'p_totalAskVol', 'group',
+       'length']. 
+ Identify rows which are contiguous whose 'surge' values which are the same.
+ For those blocks of contiguous, same 'surge' values, Count the number of contiguous rows 
+ and put the count of contiguous rows in the 'surge_length' column. 
+
+ Identify rows which are contiguous whose 'precursor' values which are the same.
+ For those blocks of contiguous, same 'precursor' values, Count the number of contiguous rows 
+ and put the count of contiguous rows in the 'precursor_length' column.
+
+ for the contiguous rows where 'surge' is '1', sum the value in the s_change rows in the 's_total_change' column.
+ for the contiguous rows where 'precursor' is '1', sum the value in the p_change rows in the 'p_total_change' column.
+ 
+ for the contiguous rows where 'precursor' is '1', sum the value in the p_buyCap rows in the 'p_total_buy_cap' column.
+  for the contiguous rows where 'precursor' is '1', sum the value in the p_askCap rows in the 'p_total_ask_cap' column.
+   for the contiguous rows where 'precursor' is '1', sum the value in the p_totalBidVol rows in the 'p_totalBidVol' column.
+   for the contiguous rows where 'precursor' is '1', sum the value in the p_totalAskVol rows in the 'p_totalAskVol' column.
+
+
+ 
+ 
