@@ -1,0 +1,218 @@
+2023-08-11 10:59:20,344:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-11 10:59:20,344:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-11 10:59:20,344:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-11 10:59:20,344:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-08-11 11:00:45,222:INFO:PyCaret ClassificationExperiment
+2023-08-11 11:00:45,226:INFO:Logging name: clf-default-name
+2023-08-11 11:00:45,226:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-11 11:00:45,226:INFO:version 3.0.4
+2023-08-11 11:00:45,226:INFO:Initializing setup()
+2023-08-11 11:00:45,226:INFO:self.USI: b161
+2023-08-11 11:00:45,227:INFO:self._variable_keys: {'target_param', 'y_test', 'idx', 'html_param', 'data', '_ml_usecase', 'exp_id', 'logging_param', 'X_test', 'gpu_param', 'memory', 'fold_shuffle_param', 'exp_name_log', 'X_train', '_available_plots', 'log_plots_param', 'pipeline', 'n_jobs_param', 'seed', 'is_multiclass', 'fold_groups_param', 'y_train', 'X', 'fold_generator', 'gpu_n_jobs_param', 'fix_imbalance', 'y', 'USI'}
+2023-08-11 11:00:45,227:INFO:Checking environment
+2023-08-11 11:00:45,227:INFO:python_version: 3.9.6
+2023-08-11 11:00:45,227:INFO:python_build: ('default', 'Oct 18 2022 12:41:40')
+2023-08-11 11:00:45,227:INFO:machine: x86_64
+2023-08-11 11:00:45,227:INFO:platform: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:00:45,227:INFO:Memory: svmem(total=8589934592, available=2800377856, percent=67.4, used=4389855232, free=57470976, active=2588168192, inactive=2726309888, wired=1801687040)
+2023-08-11 11:00:45,227:INFO:Physical Core: 2
+2023-08-11 11:00:45,227:INFO:Logical Core: 4
+2023-08-11 11:00:45,227:INFO:Checking libraries
+2023-08-11 11:00:45,228:INFO:System:
+2023-08-11 11:00:45,228:INFO:    python: 3.9.6 (default, Oct 18 2022, 12:41:40)  [Clang 14.0.0 (clang-1400.0.29.202)]
+2023-08-11 11:00:45,228:INFO:executable: /Library/Developer/CommandLineTools/usr/bin/python3
+2023-08-11 11:00:45,228:INFO:   machine: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:00:45,228:INFO:PyCaret required dependencies:
+2023-08-11 11:02:38,949:INFO:PyCaret ClassificationExperiment
+2023-08-11 11:02:38,950:INFO:Logging name: clf-default-name
+2023-08-11 11:02:38,951:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-11 11:02:38,951:INFO:version 3.0.4
+2023-08-11 11:02:38,951:INFO:Initializing setup()
+2023-08-11 11:02:38,951:INFO:self.USI: 8105
+2023-08-11 11:02:38,951:INFO:self._variable_keys: {'target_param', 'y_test', 'idx', 'html_param', 'data', '_ml_usecase', 'exp_id', 'logging_param', 'X_test', 'gpu_param', 'memory', 'fold_shuffle_param', 'exp_name_log', 'X_train', '_available_plots', 'log_plots_param', 'pipeline', 'n_jobs_param', 'seed', 'is_multiclass', 'fold_groups_param', 'y_train', 'X', 'fold_generator', 'gpu_n_jobs_param', 'fix_imbalance', 'y', 'USI'}
+2023-08-11 11:02:38,952:INFO:Checking environment
+2023-08-11 11:02:38,952:INFO:python_version: 3.9.6
+2023-08-11 11:02:38,952:INFO:python_build: ('default', 'Oct 18 2022 12:41:40')
+2023-08-11 11:02:38,953:INFO:machine: x86_64
+2023-08-11 11:02:38,954:INFO:platform: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:02:38,954:INFO:Memory: svmem(total=8589934592, available=2500943872, percent=70.9, used=4431003648, free=15564800, active=2487717888, inactive=2465812480, wired=1943285760)
+2023-08-11 11:02:38,954:INFO:Physical Core: 2
+2023-08-11 11:02:38,954:INFO:Logical Core: 4
+2023-08-11 11:02:38,954:INFO:Checking libraries
+2023-08-11 11:02:38,955:INFO:System:
+2023-08-11 11:02:38,955:INFO:    python: 3.9.6 (default, Oct 18 2022, 12:41:40)  [Clang 14.0.0 (clang-1400.0.29.202)]
+2023-08-11 11:02:38,955:INFO:executable: /Library/Developer/CommandLineTools/usr/bin/python3
+2023-08-11 11:02:38,955:INFO:   machine: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:02:38,955:INFO:PyCaret required dependencies:
+2023-08-11 11:02:59,917:INFO:PyCaret ClassificationExperiment
+2023-08-11 11:02:59,919:INFO:Logging name: clf-default-name
+2023-08-11 11:02:59,919:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-11 11:02:59,919:INFO:version 3.0.4
+2023-08-11 11:02:59,920:INFO:Initializing setup()
+2023-08-11 11:02:59,920:INFO:self.USI: b152
+2023-08-11 11:02:59,920:INFO:self._variable_keys: {'target_param', 'y_test', 'idx', 'html_param', 'data', '_ml_usecase', 'exp_id', 'logging_param', 'X_test', 'gpu_param', 'memory', 'fold_shuffle_param', 'exp_name_log', 'X_train', '_available_plots', 'log_plots_param', 'pipeline', 'n_jobs_param', 'seed', 'is_multiclass', 'fold_groups_param', 'y_train', 'X', 'fold_generator', 'gpu_n_jobs_param', 'fix_imbalance', 'y', 'USI'}
+2023-08-11 11:02:59,920:INFO:Checking environment
+2023-08-11 11:02:59,920:INFO:python_version: 3.9.6
+2023-08-11 11:02:59,920:INFO:python_build: ('default', 'Oct 18 2022 12:41:40')
+2023-08-11 11:02:59,920:INFO:machine: x86_64
+2023-08-11 11:02:59,920:INFO:platform: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:02:59,920:INFO:Memory: svmem(total=8589934592, available=2550304768, percent=70.3, used=4360855552, free=67694592, active=2484690944, inactive=2470273024, wired=1876164608)
+2023-08-11 11:02:59,920:INFO:Physical Core: 2
+2023-08-11 11:02:59,920:INFO:Logical Core: 4
+2023-08-11 11:02:59,921:INFO:Checking libraries
+2023-08-11 11:02:59,921:INFO:System:
+2023-08-11 11:02:59,921:INFO:    python: 3.9.6 (default, Oct 18 2022, 12:41:40)  [Clang 14.0.0 (clang-1400.0.29.202)]
+2023-08-11 11:02:59,921:INFO:executable: /Library/Developer/CommandLineTools/usr/bin/python3
+2023-08-11 11:02:59,921:INFO:   machine: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:02:59,921:INFO:PyCaret required dependencies:
+2023-08-11 11:06:21,429:INFO:PyCaret ClassificationExperiment
+2023-08-11 11:06:21,430:INFO:Logging name: clf-default-name
+2023-08-11 11:06:21,430:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-11 11:06:21,430:INFO:version 3.0.4
+2023-08-11 11:06:21,430:INFO:Initializing setup()
+2023-08-11 11:06:21,430:INFO:self.USI: 951d
+2023-08-11 11:06:21,431:INFO:self._variable_keys: {'target_param', 'y_test', 'idx', 'html_param', 'data', '_ml_usecase', 'exp_id', 'logging_param', 'X_test', 'gpu_param', 'memory', 'fold_shuffle_param', 'exp_name_log', 'X_train', '_available_plots', 'log_plots_param', 'pipeline', 'n_jobs_param', 'seed', 'is_multiclass', 'fold_groups_param', 'y_train', 'X', 'fold_generator', 'gpu_n_jobs_param', 'fix_imbalance', 'y', 'USI'}
+2023-08-11 11:06:21,431:INFO:Checking environment
+2023-08-11 11:06:21,431:INFO:python_version: 3.9.6
+2023-08-11 11:06:21,431:INFO:python_build: ('default', 'Oct 18 2022 12:41:40')
+2023-08-11 11:06:21,431:INFO:machine: x86_64
+2023-08-11 11:06:21,431:INFO:platform: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:06:21,431:INFO:Memory: svmem(total=8589934592, available=2552565760, percent=70.3, used=4314210304, free=133578752, active=2423623680, inactive=2383646720, wired=1890586624)
+2023-08-11 11:06:21,431:INFO:Physical Core: 2
+2023-08-11 11:06:21,432:INFO:Logical Core: 4
+2023-08-11 11:06:21,432:INFO:Checking libraries
+2023-08-11 11:06:21,432:INFO:System:
+2023-08-11 11:06:21,432:INFO:    python: 3.9.6 (default, Oct 18 2022, 12:41:40)  [Clang 14.0.0 (clang-1400.0.29.202)]
+2023-08-11 11:06:21,432:INFO:executable: /Library/Developer/CommandLineTools/usr/bin/python3
+2023-08-11 11:06:21,432:INFO:   machine: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:06:21,432:INFO:PyCaret required dependencies:
+2023-08-11 11:07:44,600:INFO:PyCaret ClassificationExperiment
+2023-08-11 11:07:44,601:INFO:Logging name: clf-default-name
+2023-08-11 11:07:44,601:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-11 11:07:44,601:INFO:version 3.0.4
+2023-08-11 11:07:44,601:INFO:Initializing setup()
+2023-08-11 11:07:44,601:INFO:self.USI: a2cb
+2023-08-11 11:07:44,601:INFO:self._variable_keys: {'target_param', 'y_test', 'idx', 'html_param', 'data', '_ml_usecase', 'exp_id', 'logging_param', 'X_test', 'gpu_param', 'memory', 'fold_shuffle_param', 'exp_name_log', 'X_train', '_available_plots', 'log_plots_param', 'pipeline', 'n_jobs_param', 'seed', 'is_multiclass', 'fold_groups_param', 'y_train', 'X', 'fold_generator', 'gpu_n_jobs_param', 'fix_imbalance', 'y', 'USI'}
+2023-08-11 11:07:44,601:INFO:Checking environment
+2023-08-11 11:07:44,601:INFO:python_version: 3.9.6
+2023-08-11 11:07:44,601:INFO:python_build: ('default', 'Oct 18 2022 12:41:40')
+2023-08-11 11:07:44,601:INFO:machine: x86_64
+2023-08-11 11:07:44,601:INFO:platform: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:07:44,602:INFO:Memory: svmem(total=8589934592, available=2495242240, percent=71.0, used=4125749248, free=273674240, active=2199977984, inactive=2168221696, wired=1925771264)
+2023-08-11 11:07:44,602:INFO:Physical Core: 2
+2023-08-11 11:07:44,602:INFO:Logical Core: 4
+2023-08-11 11:07:44,602:INFO:Checking libraries
+2023-08-11 11:07:44,602:INFO:System:
+2023-08-11 11:07:44,602:INFO:    python: 3.9.6 (default, Oct 18 2022, 12:41:40)  [Clang 14.0.0 (clang-1400.0.29.202)]
+2023-08-11 11:07:44,602:INFO:executable: /Library/Developer/CommandLineTools/usr/bin/python3
+2023-08-11 11:07:44,602:INFO:   machine: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:07:44,602:INFO:PyCaret required dependencies:
+2023-08-11 11:18:50,910:INFO:PyCaret ClassificationExperiment
+2023-08-11 11:18:50,911:INFO:Logging name: clf-default-name
+2023-08-11 11:18:50,911:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-11 11:18:50,912:INFO:version 3.0.4
+2023-08-11 11:18:50,912:INFO:Initializing setup()
+2023-08-11 11:18:50,912:INFO:self.USI: 743a
+2023-08-11 11:18:50,912:INFO:self._variable_keys: {'target_param', 'y_test', 'idx', 'html_param', 'data', '_ml_usecase', 'exp_id', 'logging_param', 'X_test', 'gpu_param', 'memory', 'fold_shuffle_param', 'exp_name_log', 'X_train', '_available_plots', 'log_plots_param', 'pipeline', 'n_jobs_param', 'seed', 'is_multiclass', 'fold_groups_param', 'y_train', 'X', 'fold_generator', 'gpu_n_jobs_param', 'fix_imbalance', 'y', 'USI'}
+2023-08-11 11:18:50,912:INFO:Checking environment
+2023-08-11 11:18:50,912:INFO:python_version: 3.9.6
+2023-08-11 11:18:50,912:INFO:python_build: ('default', 'Oct 18 2022 12:41:40')
+2023-08-11 11:18:50,912:INFO:machine: x86_64
+2023-08-11 11:18:50,912:INFO:platform: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:18:50,912:INFO:Memory: svmem(total=8589934592, available=2283761664, percent=73.4, used=4193337344, free=94564352, active=2190622720, inactive=2186244096, wired=2002714624)
+2023-08-11 11:18:50,913:INFO:Physical Core: 2
+2023-08-11 11:18:50,913:INFO:Logical Core: 4
+2023-08-11 11:18:50,913:INFO:Checking libraries
+2023-08-11 11:18:50,913:INFO:System:
+2023-08-11 11:18:50,913:INFO:    python: 3.9.6 (default, Oct 18 2022, 12:41:40)  [Clang 14.0.0 (clang-1400.0.29.202)]
+2023-08-11 11:18:50,913:INFO:executable: /Library/Developer/CommandLineTools/usr/bin/python3
+2023-08-11 11:18:50,913:INFO:   machine: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:18:50,913:INFO:PyCaret required dependencies:
+2023-08-11 11:30:09,606:INFO:PyCaret ClassificationExperiment
+2023-08-11 11:30:09,613:INFO:Logging name: clf-default-name
+2023-08-11 11:30:09,614:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-11 11:30:09,614:INFO:version 3.0.4
+2023-08-11 11:30:09,614:INFO:Initializing setup()
+2023-08-11 11:30:09,614:INFO:self.USI: 0afd
+2023-08-11 11:30:09,614:INFO:self._variable_keys: {'target_param', 'y_test', 'idx', 'html_param', 'data', '_ml_usecase', 'exp_id', 'logging_param', 'X_test', 'gpu_param', 'memory', 'fold_shuffle_param', 'exp_name_log', 'X_train', '_available_plots', 'log_plots_param', 'pipeline', 'n_jobs_param', 'seed', 'is_multiclass', 'fold_groups_param', 'y_train', 'X', 'fold_generator', 'gpu_n_jobs_param', 'fix_imbalance', 'y', 'USI'}
+2023-08-11 11:30:09,614:INFO:Checking environment
+2023-08-11 11:30:09,614:INFO:python_version: 3.9.6
+2023-08-11 11:30:09,614:INFO:python_build: ('default', 'Oct 18 2022 12:41:40')
+2023-08-11 11:30:09,614:INFO:machine: x86_64
+2023-08-11 11:30:09,614:INFO:platform: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:30:09,614:INFO:Memory: svmem(total=8589934592, available=2233229312, percent=74.0, used=4165058560, free=28565504, active=2205917184, inactive=2202431488, wired=1959141376)
+2023-08-11 11:30:09,615:INFO:Physical Core: 2
+2023-08-11 11:30:09,615:INFO:Logical Core: 4
+2023-08-11 11:30:09,615:INFO:Checking libraries
+2023-08-11 11:30:09,615:INFO:System:
+2023-08-11 11:30:09,615:INFO:    python: 3.9.6 (default, Oct 18 2022, 12:41:40)  [Clang 14.0.0 (clang-1400.0.29.202)]
+2023-08-11 11:30:09,615:INFO:executable: /Library/Developer/CommandLineTools/usr/bin/python3
+2023-08-11 11:30:09,615:INFO:   machine: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:30:09,616:INFO:PyCaret required dependencies:
+2023-08-11 11:32:10,091:INFO:PyCaret ClassificationExperiment
+2023-08-11 11:32:10,092:INFO:Logging name: clf-default-name
+2023-08-11 11:32:10,092:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-11 11:32:10,092:INFO:version 3.0.4
+2023-08-11 11:32:10,092:INFO:Initializing setup()
+2023-08-11 11:32:10,092:INFO:self.USI: fab9
+2023-08-11 11:32:10,092:INFO:self._variable_keys: {'target_param', 'y_test', 'idx', 'html_param', 'data', '_ml_usecase', 'exp_id', 'logging_param', 'X_test', 'gpu_param', 'memory', 'fold_shuffle_param', 'exp_name_log', 'X_train', '_available_plots', 'log_plots_param', 'pipeline', 'n_jobs_param', 'seed', 'is_multiclass', 'fold_groups_param', 'y_train', 'X', 'fold_generator', 'gpu_n_jobs_param', 'fix_imbalance', 'y', 'USI'}
+2023-08-11 11:32:10,092:INFO:Checking environment
+2023-08-11 11:32:10,092:INFO:python_version: 3.9.6
+2023-08-11 11:32:10,092:INFO:python_build: ('default', 'Oct 18 2022 12:41:40')
+2023-08-11 11:32:10,093:INFO:machine: x86_64
+2023-08-11 11:32:10,093:INFO:platform: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:32:10,093:INFO:Memory: svmem(total=8589934592, available=2257932288, percent=73.7, used=4081213440, free=71393280, active=2161950720, inactive=2046021632, wired=1919262720)
+2023-08-11 11:32:10,093:INFO:Physical Core: 2
+2023-08-11 11:32:10,093:INFO:Logical Core: 4
+2023-08-11 11:32:10,093:INFO:Checking libraries
+2023-08-11 11:32:10,093:INFO:System:
+2023-08-11 11:32:10,093:INFO:    python: 3.9.6 (default, Oct 18 2022, 12:41:40)  [Clang 14.0.0 (clang-1400.0.29.202)]
+2023-08-11 11:32:10,093:INFO:executable: /Library/Developer/CommandLineTools/usr/bin/python3
+2023-08-11 11:32:10,093:INFO:   machine: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:32:10,093:INFO:PyCaret required dependencies:
+2023-08-11 11:34:25,269:INFO:PyCaret ClassificationExperiment
+2023-08-11 11:34:25,277:INFO:Logging name: clf-default-name
+2023-08-11 11:34:25,277:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-11 11:34:25,277:INFO:version 3.0.4
+2023-08-11 11:34:25,277:INFO:Initializing setup()
+2023-08-11 11:34:25,277:INFO:self.USI: 86aa
+2023-08-11 11:34:25,277:INFO:self._variable_keys: {'target_param', 'y_test', 'idx', 'html_param', 'data', '_ml_usecase', 'exp_id', 'logging_param', 'X_test', 'gpu_param', 'memory', 'fold_shuffle_param', 'exp_name_log', 'X_train', '_available_plots', 'log_plots_param', 'pipeline', 'n_jobs_param', 'seed', 'is_multiclass', 'fold_groups_param', 'y_train', 'X', 'fold_generator', 'gpu_n_jobs_param', 'fix_imbalance', 'y', 'USI'}
+2023-08-11 11:34:25,277:INFO:Checking environment
+2023-08-11 11:34:25,278:INFO:python_version: 3.9.6
+2023-08-11 11:34:25,278:INFO:python_build: ('default', 'Oct 18 2022 12:41:40')
+2023-08-11 11:34:25,278:INFO:machine: x86_64
+2023-08-11 11:34:25,278:INFO:platform: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:34:25,278:INFO:Memory: svmem(total=8589934592, available=2360324096, percent=72.5, used=4058255360, free=146780160, active=2177052672, inactive=2205323264, wired=1881202688)
+2023-08-11 11:34:25,278:INFO:Physical Core: 2
+2023-08-11 11:34:25,278:INFO:Logical Core: 4
+2023-08-11 11:34:25,278:INFO:Checking libraries
+2023-08-11 11:34:25,278:INFO:System:
+2023-08-11 11:34:25,278:INFO:    python: 3.9.6 (default, Oct 18 2022, 12:41:40)  [Clang 14.0.0 (clang-1400.0.29.202)]
+2023-08-11 11:34:25,278:INFO:executable: /Library/Developer/CommandLineTools/usr/bin/python3
+2023-08-11 11:34:25,278:INFO:   machine: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:34:25,279:INFO:PyCaret required dependencies:
+2023-08-11 11:38:15,358:INFO:PyCaret ClassificationExperiment
+2023-08-11 11:38:15,358:INFO:Logging name: clf-default-name
+2023-08-11 11:38:15,358:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2023-08-11 11:38:15,358:INFO:version 3.0.4
+2023-08-11 11:38:15,358:INFO:Initializing setup()
+2023-08-11 11:38:15,359:INFO:self.USI: ade9
+2023-08-11 11:38:15,359:INFO:self._variable_keys: {'target_param', 'y_test', 'idx', 'html_param', 'data', '_ml_usecase', 'exp_id', 'logging_param', 'X_test', 'gpu_param', 'memory', 'fold_shuffle_param', 'exp_name_log', 'X_train', '_available_plots', 'log_plots_param', 'pipeline', 'n_jobs_param', 'seed', 'is_multiclass', 'fold_groups_param', 'y_train', 'X', 'fold_generator', 'gpu_n_jobs_param', 'fix_imbalance', 'y', 'USI'}
+2023-08-11 11:38:15,359:INFO:Checking environment
+2023-08-11 11:38:15,359:INFO:python_version: 3.9.6
+2023-08-11 11:38:15,359:INFO:python_build: ('default', 'Oct 18 2022 12:41:40')
+2023-08-11 11:38:15,359:INFO:machine: x86_64
+2023-08-11 11:38:15,359:INFO:platform: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:38:15,360:INFO:Memory: svmem(total=8589934592, available=2414014464, percent=71.9, used=3963346944, free=181850112, active=2234466304, inactive=2218008576, wired=1728880640)
+2023-08-11 11:38:15,360:INFO:Physical Core: 2
+2023-08-11 11:38:15,360:INFO:Logical Core: 4
+2023-08-11 11:38:15,361:INFO:Checking libraries
+2023-08-11 11:38:15,361:INFO:System:
+2023-08-11 11:38:15,362:INFO:    python: 3.9.6 (default, Oct 18 2022, 12:41:40)  [Clang 14.0.0 (clang-1400.0.29.202)]
+2023-08-11 11:38:15,362:INFO:executable: /Library/Developer/CommandLineTools/usr/bin/python3
+2023-08-11 11:38:15,362:INFO:   machine: macOS-12.6.7-x86_64-i386-64bit
+2023-08-11 11:38:15,362:INFO:PyCaret required dependencies:
