@@ -1,0 +1,62 @@
+consider this pandas data frame: 	time	MP	change	bucket
+0	1.680896e+12	17.61	NaN	precursor
+1	1.680896e+12	17.61	-3.975014e-04	precursor
+2	1.680896e+12	17.60	-1.703578e-04	precursor
+3	1.680896e+12	17.59	-5.681818e-04	precursor
+0	1.680896e+12	17.59	0.000000e+00	surge
+1	1.680896e+12	17.59	0.000000e+00	surge
+2	1.680896e+12	17.59	0.000000e+00	surge
+3	1.680896e+12	17.59	3.979534e-04	surge
+4	1.680896e+12	17.60	1.705514e-04	surge
+4	1.680896e+12	17.60	-1.136364e-04	precursor
+5	1.680896e+12	17.60	1.137010e-04	surge
+6	1.680896e+12	17.60	1.704545e-04	surge
+7	1.680896e+12	17.61	3.977273e-04	surge
+5	1.680896e+12	17.61	-5.678592e-05	precursor
+8	1.680896e+12	17.60	5.685045e-05	surge
+9	1.680896e+12	17.62	7.384429e-04	surge
+10	1.680896e+12	17.63	3.972758e-04	surge
+11	1.680896e+12	17.63	3.970505e-04	surge
+12	1.680897e+12	17.64	1.701645e-04	surge
+13	1.680897e+12	17.64	0.000000e+00	surge
+14	1.680897e+12	17.64	0.000000e+00	surge  for  row within the bucket column, 
+identify rows with contiguous,  values which are the same. For those blocks of contiguous,  
+same 'bucket' values, Count the number of contiguous rows and put the length of that 
+in new column called 'length'. Then add up the sum of all the values in the change column 
+for those rows and place that some value into a new column called 'sum'. Create a new 
+column called 'identifier' which is equivalent to the minimum 'time' column for that group of rows.
+ create a new column called 'end_time' which is equivalent to the maximum 'time' column for that group of rows.
+ Create a new column call 'type' which is equivalent to the value in the 'bucket' column which the rows share in common.
+
+
+
+For all the unique values in the sequence_df Data frame column 'identifier', 
+take only one row from the data frame with that identifier
+
+
+for the pandas data frame unique_df, where column 'bucket' is equal to 'surge'. For those rows create a new column 
+called 'surge length' and make it equal to 'length' then set the value in 'length' to zero
+
+
+i have a pandas dataframe with columns ['time', 's_MP', 's_change', 'surge', 'p_MP', 'p_change', 'precursor',
+       'p_buyCap', 'p_askCap', 'p_totalBidVol', 'p_totalAskVol', 'group',
+       'length']. 
+ Identify rows which are contiguous whose 'surge' values which are the same.
+ For those blocks of contiguous, same 'surge' values, Count the number of contiguous rows 
+ and put the count of contiguous rows in the 'surge_length' column. 
+
+ Identify rows which are contiguous whose 'precursor' values which are the same.
+ For those blocks of contiguous, same 'precursor' values, Count the number of contiguous rows 
+ and put the count of contiguous rows in the 'precursor_length' column.
+
+ for the contiguous rows where 'surge' is '1', sum the value in the s_change rows in the 's_total_change' column.
+ for the contiguous rows where 'precursor' is '1', sum the value in the p_change rows in the 'p_total_change' column.
+ 
+ for the contiguous rows where 'precursor' is '1', sum the value in the p_buyCap rows in the 'p_total_buy_cap' column.
+  for the contiguous rows where 'precursor' is '1', sum the value in the p_askCap rows in the 'p_total_ask_cap' column.
+   for the contiguous rows where 'precursor' is '1', sum the value in the p_totalBidVol rows in the 'p_totalBidVol' column.
+   for the contiguous rows where 'precursor' is '1', sum the value in the p_totalAskVol rows in the 'p_totalAskVol' column.
+
+
+ 
+ 
